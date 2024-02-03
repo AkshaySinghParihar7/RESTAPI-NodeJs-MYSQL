@@ -22,5 +22,14 @@ npm start
 
 This will launch the API, making it accessible for testing and integration.
 
-##Features
+## Features
 <b>CRUD Operations</b>: The API supports Create, Read, Update, and Delete operations to manage your data effectively.
+<br/>
+<b>JWT Authentication:</b> Utilizes JSON Web Tokens for secure user authentication and authorization.
+
+## API Endpoints
+- `GET /api/plans:` Retrieve all plans.
+- `GET /api/plans/:id:` Retrieve a specific plans by ID.
+- `POST /api/plans:` Create a new plans.
+- `PATCH /api/plans/:id:` Update a plans by ID.
+- `DELETE /api/plans/:id:` Delete a plans by ID.
