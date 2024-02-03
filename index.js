@@ -10,7 +10,7 @@ app.use('/api/plans',jwt.authenticateToken,planRoute);
 
 app.get('/', jwt.authenticateToken, (req, res) =>{
     res.send('Hello World!');
-})
+});
 
 app.post('/', (req, res) =>{
     console.log(req.body);
